@@ -1,0 +1,15 @@
+{
+    "name": "PopupAdds",
+    "alias": "popup_adds",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\PopupAdds\\Providers\\PopupAddsServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        "composer.php"
+    ],
+    "requires": []
+}

@@ -1,0 +1,16 @@
+<?php
+
+view()->composer([
+  'apps::dashboard.index',
+  'report::dashboard.index'
+], \Modules\Report\ViewComposers\Dashboard\UserComposer::class);
+
+view()->composer([
+  'apps::dashboard.index',
+  'report::dashboard.index'
+],  \Modules\Report\ViewComposers\Dashboard\VendorComposer::class);
+
+view()->composer([
+  'apps::dashboard.index',
+  'report::dashboard.index'
+],  \Modules\Report\ViewComposers\Dashboard\OrderComposer::class);
